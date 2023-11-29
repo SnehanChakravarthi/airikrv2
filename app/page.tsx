@@ -98,7 +98,7 @@ export default function Home() {
       <div className="flex min-h-screen flex-col ">
         <div className="mt-32 flex flex-col items-start">
           <h1 className="text-2xl font-medium tracking-tighter text-white">
-            Hi, I'm Johan Grundstörm Eriksson 👋🏼
+            Hi, I&apos;m Johan Grundstörm Eriksson 👋🏼
           </h1>
           <p className="prose mt-8 text-neutral-400">
             In irure reprehenderit aliqua do. In nulla et dolor sit sint id

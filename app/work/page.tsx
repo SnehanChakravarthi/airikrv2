@@ -15,7 +15,7 @@ function Work() {
       <div className="prose text-neutral-400">
         <p>
           On a mission to identifying and initiating new value and impact.
-          Here's a summary of my work so far.
+          Here&apos;s a summary of my work so far.
         </p>
         <hr className="my-6 border-neutral-800" />
         <h2 className="mb-1 text-xl font-medium tracking-tighter text-white">
@@ -115,8 +115,8 @@ function Work() {
         </p>
         <ul>
           <li>
-            Driver of Sony Mobile's management system integration. Innovation &
-            Site Strategy, Innovation capacity beyond smartphones.
+            Driver of Sony Mobile&apos;s management system integration.
+            Innovation & Site Strategy, Innovation capacity beyond smartphones.
           </li>
           <li>
             Long-term management system planning (Innovation, Quality,

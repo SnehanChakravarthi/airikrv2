@@ -96,7 +96,7 @@ export default function Home() {
                 <div className="flex flex-row">
                   <div className="flex flex-col">
                     <h1 className="text-2xl font-medium uppercase leading-none tracking-tighter text-black">
-                      Johan <br /> Grundstörm <br /> Eriksson
+                      Johan <br /> Grundström <br /> Eriksson Grundström
                     </h1>
                     <p className="">Advisory Interim Consulting</p>
                   </div>

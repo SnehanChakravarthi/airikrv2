@@ -52,20 +52,19 @@ export default function BlogPage() {
 
   return (
     <div className="flex h-full w-full flex-col items-start">
-      <h1 className="mb-8 mt-32 text-2xl font-medium tracking-tighter text-white">
-        News and thoughts&nbsp; 🖋️
+      <h1 className="mb-8 mt-32 text-2xl font-medium tracking-tighter text-neutral-950">
+        News and thoughts
       </h1>
-      <p className="prose text-neutral-400">
+      {/* <p className="prose text-neutral-700">
         All of my long-form thoughts on programming, leadership, product design,
         and more, collected in chronological order.
-      </p>
-      <hr className="my-6 border-neutral-800" />
-
+      </p> */}
+      {/* 
       <div className="mx-6 flex flex-col">
         {posts.map((post, idx) => (
           <PostCard key={idx} {...post} />
         ))}
-      </div>
+      </div> */}
       <LinkedInPost />
     </div>
   );

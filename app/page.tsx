@@ -34,7 +34,7 @@ function OrgLinks({
       <Link
         href={link}
         target="_blank"
-        className="flex w-full items-center justify-between rounded border border-neutral-800 bg-neutral-900 px-3 py-4"
+        className="flex w-full items-center justify-between rounded-xl border border-neutral-200 bg-neutral-100 px-3 py-4 shadow-md"
       >
         <div className="flex items-center space-x-3">
           <div className="relative flex h-16 items-center">
@@ -49,7 +49,7 @@ function OrgLinks({
             />
           </div>
           <div className="flex flex-col">
-            <p className="font-medium text-neutral-100">{name}</p>
+            <p className="font-medium text-neutral-800">{name}</p>
           </div>
         </div>
         <div className="transform text-neutral-700 transition-transform duration-300 group-hover:-rotate-12 dark:text-neutral-300">
@@ -59,125 +59,69 @@ function OrgLinks({
     </div>
   );
 }
-function Org2Links({
-  img,
-  name,
-  link,
-  height,
-}: {
-  img: string;
-  name: string;
-  link: string;
-  height?: number;
-}) {
-  return (
-    <div className="group flex w-full">
-      <div className="flex w-full items-center justify-center rounded border border-neutral-800 bg-neutral-900 px-3 py-4">
-        <div className="relative flex h-16 items-center justify-center">
-          <Image
-            alt={name}
-            src={img}
-            height={64}
-            width={64}
-            sizes="33vw"
-            className=" h-14 w-auto"
-            priority
-          />
-        </div>
-        {/* <div className="transform text-neutral-700 transition-transform duration-300 group-hover:-rotate-12 dark:text-neutral-300">
-          <ArrowIcon />
-        </div> */}
-      </div>
-    </div>
-  );
-}
 
 export default function Home() {
   return (
     <div className="flex flex-col items-stretch justify-center">
-      <div className="flex min-h-screen flex-col ">
-        <div className="mt-32 flex flex-col items-start">
-          <h1 className="text-2xl font-medium tracking-tighter text-white">
-            Hi, I&apos;m Johan Grundstörm Eriksson 👋🏼
-          </h1>
-          <p className="prose mt-8 text-neutral-400">
-            In irure reprehenderit aliqua do. In nulla et dolor sit sint id
-            Lorem reprehenderit sunt laboris sunt consequat magna officia. Ex
-            cupidatat occaecat laborum ad irure. Ipsum labore elit ea sint elit.
-          </p>
-        </div>
-        <div className="my-8 columns-2 gap-4 sm:columns-3">
-          <div className="relative mb-4 h-40">
+      <div className="flex flex-col justify-center">
+        <div className="mt-32 flex h-full w-full flex-col gap-20">
+          <div className="flex w-full flex-col items-center justify-between gap-10 sm:flex-row sm:gap-0 sm:divide-x">
             <Image
-              alt="Johan Grundström Eriksson"
-              src="/photos/JohanGE_fotoCharlotteCarlbergBarg_8747.jpg"
-              fill
-              sizes="(max-width: 768px) 213px, 33vw"
-              priority
-              className="rounded-lg object-cover object-top"
+              alt="Innovation Management Model"
+              src="/Asset 51.png"
+              height={500}
+              width={500}
+              className="sm:w-1/2 sm:pr-6"
+            />
+            <Image
+              alt="Innovation Management Principles"
+              src="/Asset 31.png"
+              height={500}
+              width={500}
+              className="sm:w-1/2 sm:pl-6"
             />
           </div>
-          <div className="relative mb-4 h-80 sm:mb-0">
-            <Image
-              alt="Johan Grundström Eriksson"
-              src="/photos/small_img_1891_sony_johan_grundstrom.jpg"
-              fill
-              sizes="(max-width: 768px) 213px, 33vw"
-              priority
-              className="rounded-lg object-cover object-left"
-            />
-          </div>
-          <div className="relative h-40 sm:mb-4 sm:h-80">
-            <Image
-              alt="Me as EITM jury"
-              src="/photos/Johan-Grundström-Eriksson-EITM-jury2.JPG"
-              fill
-              sizes="(max-width: 768px) 213px, 33vw"
-              priority
-              className="rounded-lg object-cover sm:object-[-190px]"
-            />
-          </div>
-          <div className="relative mb-4 h-40 sm:mb-0">
-            <Image
-              alt="ISPIM Innovation Conference I Johan Grundström Eriksson, Sony Mobile Communications"
-              src="/photos/ISPIM Innovation Conference I Johan Grundström Eriksson, Sony Mobile Communications 0-45 screenshot.png"
-              fill
-              sizes="(max-width: 768px) 213px, 33vw"
-              priority
-              className="rounded-lg object-cover"
-            />
-          </div>
-          <div className="relative mb-4 h-40">
-            <Image
-              alt="Johan Grundström Eriksson"
-              src="/photos/83012500_567017943851610_8729094603292016640_n.png"
-              fill
-              sizes="(max-width: 768px) 213px, 33vw"
-              priority
-              className="rounded-lg object-cover"
-            />
-          </div>
-          <div className="relative h-80">
-            <Image
-              alt="Johan Grundström Eriksson"
-              src="/photos/Björn-bild-EITM-Skövde.JPG"
-              fill
-              sizes="(min-width: 768px) 213px, 33vw"
-              priority
-              className="rounded-lg object-cover"
-            />
+          <div className="flex w-full flex-col items-center justify-between sm:flex-row sm:px-4">
+            <div className="flex w-full flex-col items-center justify-between gap-6 sm:flex-row sm:items-end sm:gap-10">
+              <div className="flex h-auto flex-row items-end gap-6">
+                <div className="h-full overflow-hidden rounded-lg">
+                  <Image
+                    alt="AI Rikr Innovation Logo"
+                    src="/photos/johanErikkson.jpg"
+                    height={200}
+                    width={200}
+                    className="translate-y-6 scale-150 pb-2"
+                  />
+                </div>
+                <div className="flex flex-row">
+                  <div className="flex flex-col">
+                    <h1 className="text-2xl font-medium uppercase leading-none tracking-tighter text-black">
+                      Johan <br /> Grundstörm <br /> Eriksson
+                    </h1>
+                    <p className="">Advisory Interim Consulting</p>
+                  </div>
+                </div>
+              </div>
+              <div className="flex flex-row items-end gap-6">
+                <Image
+                  alt="AI Rikr Innovation Logo"
+                  src="/aiRikr_Innovation_vertical_black.png"
+                  height={200}
+                  width={200}
+                  className="h-32 w-auto pb-2"
+                />
+                <div>
+                  <br /> Innovation Management <br />
+                  Strategy Management
+                  <br /> Corporate Governance
+                  <br /> Assessment & Audit
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <div className="flex flex-col">
-        <div className="prose text-neutral-400">
-          <p>
-            Duis consectetur duis Lorem dolor. Sunt id aliqua magna incididunt
-            ut ullamco qui consectetur mollit nulla officia fugiat. Pariatur
-            pariatur consectetur esse quis ipsum anim ut tempor enim. Quis
-            officia aliquip consequat veniam non ea laboris consequat.
-          </p>
-        </div>
+      <div className="mt-10 flex flex-col">
         <div className="my-8 flex w-full flex-col space-x-0 space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
           <OrgLinks
             img="/ISO_Logo_(Red_square).svg.png"
@@ -186,7 +130,7 @@ export default function Home() {
             height={14}
           />
           <OrgLinks
-            img="/LOGOTYPE.png"
+            img="/LOGOTYPE.webp"
             name=""
             link="https://japanbridgescandinavia.se/"
           />
@@ -196,35 +140,7 @@ export default function Home() {
             link="https://www.hivenetwork.online/"
           />
         </div>
-        <div className="prose text-neutral-400">
-          <p>
-            Incididunt eu sunt ad magna aliquip. Do mollit eu cupidatat irure
-            nostrud Lorem in Lorem commodo aute excepteur labore enim veniam.
-            Lorem est ad incididunt et cupidatat et exercitation. Sit amet
-            officia velit aute ex ea sint.
-          </p>
-        </div>
-        <div className="my-8 flex w-full flex-col space-x-0 space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
-          <Org2Links
-            img="/aiRikr_Innovation_horisontal_colour_inv.png"
-            name=""
-            link="https://www.hivenetwork.online/"
-            height={14}
-          />
-          <Org2Links
-            img="/kisspng-sony-xperia-s-sony-xperia-z-sony-mobile-north-shor-hertz-corporation-5b2bf01b537c48.567543561529606171342.png"
-            name=""
-            link="https://www.hivenetwork.online/"
-          />
-        </div>
-        <div className="prose text-neutral-400">
-          <p>
-            Incididunt eu sunt ad magna aliquip. Do mollit eu cupidatat irure
-            nostrud Lorem in Lorem commodo aute excepteur labore enim veniam.
-            Lorem est ad incididunt et cupidatat et exercitation. Sit amet
-            officia velit aute ex ea sint.
-          </p>
-        </div>
+
         <div className="mt-10">
           <a
             className="flex items-center transition-all hover:text-neutral-500 "
@@ -239,4 +155,35 @@ export default function Home() {
       </div>
     </div>
   );
+}
+
+{
+  /* <div className="flex flex-col items-center gap-16">
+            <div className="px-8 py-6">
+              <Image
+                alt="AI Rikr Innovation Logo"
+                src="/photos/johanErikkson.jpg"
+                height={200}
+                width={200}
+                className="rounded-t-xl"
+              />
+              <h1 className="text-2xl font-medium uppercase tracking-tighter text-black">
+                Johan Grundstörm Eriksson
+              </h1>
+              <h2 className=" text-neutral-800">Advisory Interim Consulting</h2>
+            </div>
+            <div className="rounded-lg border border-neutral-200 bg-neutral-100 px-8 py-6 shadow-lg">
+              <Image
+                alt="AI Rikr Innovation Logo"
+                src="/aiRikr_Innovation_horisontal_colour.png"
+                height={200}
+                width={200}
+              />
+              <h2 className="mt-4 text-center text-neutral-800">
+                Innovation Management <br /> Strategy Management
+                <br /> Corporate Governance
+                <br /> Assessment & Audit
+              </h2>
+            </div>
+          </div> */
 }

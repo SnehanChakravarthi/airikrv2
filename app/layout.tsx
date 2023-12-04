@@ -32,9 +32,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${GeistSans.variable} ${GeistMono.variable}`}>
-      <body className="mb-40  min-h-screen bg-[#111010] text-neutral-300 antialiased">
+      <body className="mb-40 min-h-screen bg-neutral-50 text-neutral-950 antialiased">
         <Header />
-        <main className="container mx-auto  max-w-3xl">{children}</main>
+        <main className="container mx-auto max-w-5xl">{children}</main>
       </body>
     </html>
   );

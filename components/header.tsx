@@ -40,7 +40,7 @@ function Header() {
                 href="https://www.linkedin.com/in/grundstromeriksson/"
               >
                 <ArrowUpIcon className="rotate-45" />
-                <p className="">reach me</p>
+                <p className="hidden sm:flex">reach me</p>
               </a>
             </div>
           </div>

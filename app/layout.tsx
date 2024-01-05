@@ -7,23 +7,35 @@ import "styles/globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL("https://airikr.com"),
   title: {
-    default: "aiRikr | Johan Eriksson",
+    default: "aiRikr | Johan Grundström Eriksson",
     template: "%s | aiRikr",
   },
-  description: "Advisor| Interim | Consultant",
-  openGraph: {
-    title: "aiRikr",
-    description: "Advisor | Interim | Consultant",
-    url: "https://airikr.com",
-    siteName: "aiRikr",
-    locale: "en_US",
-    type: "website",
-  },
+  description: "Johan Grundström Eriksson - Advisor| Interim | Consultant",
+  // openGraph: {
+  //   title: "aiRikr",
+  //   description: "Johan Grundström Eriksson - Advisor | Interim | Consultant",
+  //   url: "https://www.airikr.com",
+  //   siteName: "aiRikr",
+  //   locale: "en_US",
+  //   type: "website",
+  //   images: [
+  //     {
+  //       url: "https://www.airikr.com/opengraph-image.png",
+  //       alt: "Johan Grundström Eriksson - Advisor| Interim | Consultant",
+  //     },
+  //   ],
+  // },
 
-  twitter: {
-    title: "aiRikr",
-    card: "summary_large_image",
-  },
+  // twitter: {
+  //   title: "aiRikr",
+  //   card: "summary_large_image",
+  //   images: [
+  //     {
+  //       url: "https://www.airikr.com/opengraph-image.png",
+  //       alt: "Johan Grundström Eriksson - Advisor| Interim | Consultant",
+  //     },
+  //   ],
+  // },
 };
 export default function RootLayout({
   children,

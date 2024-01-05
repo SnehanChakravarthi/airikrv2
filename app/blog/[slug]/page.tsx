@@ -48,7 +48,7 @@ const PostLayout = ({ params }: { params: { slug: string } }) => {
           <h1 className="mb-4 text-2xl font-bold">{post.title}</h1>
           <div className="flex items-center gap-2">
             <div>
-              <Image
+              <img
                 src="/photos/JohanGE_fotoCharlotteCarlbergBarg_8747.jpg"
                 alt="Snehan"
                 width={30}

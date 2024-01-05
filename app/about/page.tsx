@@ -21,7 +21,7 @@ function Work() {
       <div className="my-8 mt-32 columns-2 gap-4 sm:columns-3">
         <div className="relative mb-4 h-40">
           <Image
-            alt="Johan Grundström Eriksson"
+            alt="Johan Grundström Eriksson 1"
             src="/photos/johanErikkson.jpg"
             fill
             sizes="(max-width: 768px) 213px, 33vw"
@@ -31,8 +31,8 @@ function Work() {
         </div>
         <div className="relative mb-4 h-80 sm:mb-0">
           <Image
-            alt="Johan Grundström Eriksson"
-            src="/photos/small_img_1891_sony_johan_grundstrom.jpg"
+            alt="Johan Grundström Eriksson 2"
+            src="/photos/2.jpg"
             fill
             sizes="(max-width: 768px) 213px, 33vw"
             priority
@@ -42,17 +42,17 @@ function Work() {
         <div className="relative h-40 sm:mb-4 sm:h-80">
           <Image
             alt="Me as EITM jury"
-            src="/photos/Johan-Grundström-Eriksson-EITM-jury2.JPG"
+            src="/photos/3.jpg"
             fill
             sizes="(max-width: 768px) 213px, 33vw"
             priority
-            className="rounded-lg object-cover sm:object-[-190px]"
+            className="rounded-lg object-cover sm:object-[-160px]"
           />
         </div>
         <div className="relative mb-4 h-40 sm:mb-0">
           <Image
-            alt="ISPIM Innovation Conference I Johan Grundström Eriksson, Sony Mobile Communications"
-            src="/photos/ISPIM Innovation Conference I Johan Grundström Eriksson, Sony Mobile Communications 0-45 screenshot.png"
+            alt="ISPIM Innovation Conference Johan Grundström Eriksson, Sony Mobile Communications"
+            src="/photos/4.jpg"
             fill
             sizes="(max-width: 768px) 213px, 33vw"
             priority
@@ -61,8 +61,8 @@ function Work() {
         </div>
         <div className="relative mb-4 h-40">
           <Image
-            alt="Johan Grundström Eriksson"
-            src="/photos/83012500_567017943851610_8729094603292016640_n.png"
+            alt="Johan Grundström Eriksson 3"
+            src="/photos/5.jpg"
             fill
             sizes="(max-width: 768px) 213px, 33vw"
             priority
@@ -71,8 +71,8 @@ function Work() {
         </div>
         <div className="relative h-80">
           <Image
-            alt="Johan Grundström Eriksson"
-            src="/photos/Björn-bild-EITM-Skövde.JPG"
+            alt="Johan Grundström Eriksson 4"
+            src="/photos/6.jpg"
             fill
             sizes="(min-width: 768px) 213px, 33vw"
             priority
